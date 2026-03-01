@@ -1,3 +1,16 @@
+/* Hi traveller, you find the stylesheet file. Now I'm here to tell you, yes this website is a vibe-coded mess. That is because I'm too broke to afford an actual professional and I can't be fucked to learn css or html and just wanted a silly website. If you have problems with this then uh, okay. */
+
+/* load custom fonts from assets/fonts */
+@font-face {
+  font-family: "Comic Sans MS";
+  src: url("assets/fonts/comicsans.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Papyrus";
+  src: url("assets/fonts/papyrus.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
