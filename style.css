@@ -11,6 +11,11 @@
   src: url("assets/fonts/papyrus.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "BTTF";
+  src: url("assets/fonts/BTTF.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -54,10 +59,13 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: italic;
-}
+
 .red-papyrus {
   font-family: "Papyrus", sans-serif;
   color: red;
+}
+
+.bttf-font {
+  font-family: "BTTF", sans-serif;
+  font-size: 2em;
 }
